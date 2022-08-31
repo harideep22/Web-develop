@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Analytics</title>
+    <link rel="stylesheet" href="live.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>FOOTBALL ANALYTICS</h1>
+    <img class="header_logo" src="https://epl-client.herokuapp.com/static/media/premier_league_logo.b47b615a.svg"
+        alt="logo">
+    <div class="navigator">
+        <a href=".\proj.html"><span class="active_link">Home</span></a>
+        <a href=".\live analysis.html"><span class="live">Live Analysis</span></a>
+        <a href=".\match predictor.html"><span class="match">Match predictor</span></a>
+        <a href=".\player performance.html"><span class="player">Player performance predictor</span></a>
+    </div>
+    <div class="live_pre">
+        <form action="/live.php">
+            <label for="live">Enter Match id :</label>
+            <input type="number" id="live">
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+
+</body>
+
+</html>
